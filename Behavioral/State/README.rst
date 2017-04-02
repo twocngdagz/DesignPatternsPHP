@@ -1,5 +1,5 @@
-`State`_
-========
+`State`__
+=========
 
 Purpose
 -------
@@ -20,21 +20,15 @@ Code
 
 You can also find these code on `GitHub`_
 
-OrderController.php
+OrderRepository.php
 
-.. literalinclude:: OrderController.php
+.. literalinclude:: OrderRepository.php
    :language: php
    :linenos:
 
-OrderFactory.php
+Order.php
 
-.. literalinclude:: OrderFactory.php
-   :language: php
-   :linenos:
-
-OrderInterface.php
-
-.. literalinclude:: OrderInterface.php
+.. literalinclude:: Order.php
    :language: php
    :linenos:
 
@@ -54,4 +48,4 @@ Test
 ----
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Behavioral/State
-.. _`State`: http://en.wikipedia.org/wiki/State_pattern
+.. __: http://en.wikipedia.org/wiki/State_pattern

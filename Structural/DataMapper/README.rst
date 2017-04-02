@@ -1,5 +1,5 @@
-`Data Mapper`_
-==============
+`Data Mapper`__
+===============
 
 Purpose
 -------
@@ -47,6 +47,12 @@ UserMapper.php
    :language: php
    :linenos:
 
+StorageAdapter.php
+
+.. literalinclude:: StorageAdapter.php
+    :language: php
+    :linenos:
+
 Test
 ----
 
@@ -57,4 +63,4 @@ Tests/DataMapperTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Structural/DataMapper
-.. _`Data Mapper`: http://en.wikipedia.org/wiki/Data_mapper_pattern
+.. __: http://en.wikipedia.org/wiki/Data_mapper_pattern

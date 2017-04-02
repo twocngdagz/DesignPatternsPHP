@@ -1,5 +1,5 @@
-`Factory Method`_
-=================
+`Factory Method`__
+==================
 
 Purpose
 -------
@@ -52,21 +52,21 @@ VehicleInterface.php
    :language: php
    :linenos:
 
-Porsche.php
+CarMercedes.php
 
-.. literalinclude:: Porsche.php
+.. literalinclude:: CarMercedes.php
+   :language: php
+   :linenos:
+
+CarFerrari.php
+
+.. literalinclude:: CarFerrari.php
    :language: php
    :linenos:
 
 Bicycle.php
 
 .. literalinclude:: Bicycle.php
-   :language: php
-   :linenos:
-
-Ferrari.php
-
-.. literalinclude:: Ferrari.php
    :language: php
    :linenos:
 
@@ -80,4 +80,4 @@ Tests/FactoryMethodTest.php
    :linenos:
 
 .. _`GitHub`: https://github.com/domnikl/DesignPatternsPHP/tree/master/Creational/FactoryMethod
-.. _`Factory Method`: http://en.wikipedia.org/wiki/Factory_method_pattern
+.. __: http://en.wikipedia.org/wiki/Factory_method_pattern

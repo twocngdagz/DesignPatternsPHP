@@ -4,13 +4,11 @@ Simple Factory
 Purpose
 -------
 
-ConcreteFactory is a simple factory pattern.
+SimpleFactory is a simple factory pattern.
 
-It differs from the static factory because it is NOT static and as you
-know: static => global => evil!
-
-Therefore, you can have multiple factories, differently parametrized,
-you can subclass it and you can mock-up it.
+It differs from the static factory because it is not static.
+Therefore, you can have multiple factories, differently parametrized, you can subclass it and you can mock it.
+It always should be preferred over a static factory!
 
 UML Diagram
 -----------
@@ -24,9 +22,9 @@ Code
 
 You can also find these code on `GitHub`_
 
-ConcreteFactory.php
+SimpleFactory.php
 
-.. literalinclude:: ConcreteFactory.php
+.. literalinclude:: SimpleFactory.php
    :language: php
    :linenos:
 
@@ -42,11 +40,15 @@ Bicycle.php
    :language: php
    :linenos:
 
-Scooter.php
+Usage
+-----
 
-.. literalinclude:: Scooter.php
-   :language: php
+.. code-block::  php
    :linenos:
+
+    $factory = new SimpleFactory();
+    $bicycle = $factory->createBicycle();
+    $bicycle->driveTo('Paris');
 
 Test
 ----
